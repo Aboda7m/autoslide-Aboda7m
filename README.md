@@ -10,7 +10,6 @@ This Python script automates the process of using BodySlide to convert NIF files
 
 - Python 3.x
 - [pywinauto](https://pywinauto.readthedocs.io/en/latest/)
-- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 
 ## Usage
 
