@@ -167,7 +167,7 @@ def process_meshes(mesh_directory, shape_data_dir, pdict):
 
     for root, dirs, files in os.walk(mesh_directory):
         for file in files:
-            if file.lower().endswith('_1.nif') and file not in success_set and file not in blacklist:
+            if file.lower().endswith('_1.nif') and file not in blacklist:
                 project_name = os.path.splitext(file)[0]
                 relative_mesh_path = os.path.relpath(os.path.join(root, file), mesh_directory)
                 #print(os.path.relpath(file))
